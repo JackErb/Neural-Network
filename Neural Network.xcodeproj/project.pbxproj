@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26F4CA471E15B8AD00BA01E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4CA461E15B8AD00BA01E5 /* main.swift */; };
+		26F4CA471E15B8AD00BA01E5 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4CA461E15B8AD00BA01E5 /* Main.swift */; };
+		26F4CA4E1E15B8BD00BA01E5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4CA4D1E15B8BD00BA01E5 /* Network.swift */; };
+		26F4CA501E15B93300BA01E5 /* Matrix Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F4CA4F1E15B93300BA01E5 /* Matrix Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		26F4CA431E15B8AD00BA01E5 /* Neural Network */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Neural Network"; sourceTree = BUILT_PRODUCTS_DIR; };
-		26F4CA461E15B8AD00BA01E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		26F4CA461E15B8AD00BA01E5 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		26F4CA4D1E15B8BD00BA01E5 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		26F4CA4F1E15B93300BA01E5 /* Matrix Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Matrix Functions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		26F4CA451E15B8AD00BA01E5 /* Neural Network */ = {
 			isa = PBXGroup;
 			children = (
-				26F4CA461E15B8AD00BA01E5 /* main.swift */,
+				26F4CA461E15B8AD00BA01E5 /* Main.swift */,
+				26F4CA4D1E15B8BD00BA01E5 /* Network.swift */,
+				26F4CA4F1E15B93300BA01E5 /* Matrix Functions.swift */,
 			);
 			path = "Neural Network";
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F4CA471E15B8AD00BA01E5 /* main.swift in Sources */,
+				26F4CA4E1E15B8BD00BA01E5 /* Network.swift in Sources */,
+				26F4CA471E15B8AD00BA01E5 /* Main.swift in Sources */,
+				26F4CA501E15B93300BA01E5 /* Matrix Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
